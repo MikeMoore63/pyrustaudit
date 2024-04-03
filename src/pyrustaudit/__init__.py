@@ -1,6 +1,6 @@
 from __future__ import absolute_import
 
-from pyrpmdb._pyinstaller import get_hook_dirs, get_PyInstaller_tests
+from pyrustaudit._pyinstaller import get_hook_dirs, get_PyInstaller_tests
 __all__ = [
     "get_hook_dirs",
     "get_PyInstaller_tests",
