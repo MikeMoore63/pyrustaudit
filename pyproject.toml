@@ -27,7 +27,7 @@ switch_eol_centos_repos()
 	fi
 }
 switch_eol_centos_repos
-if [ "${AUDITWHEEL_POLICY}" == "manylinux2014" ] && [ "${AUDITWHEEL_ARCH}" != "x86_64" ]
+if [ "${AUDITWHEEL_POLICY}" == "manylinux2014" ] && [ "${AUDITWHEEL_ARCH}" == "x86_64" ]
 then
 	yum install -y golang
 fi	
