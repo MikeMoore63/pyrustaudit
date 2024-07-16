@@ -11,7 +11,7 @@ GOPATH="C:\\Go"
 """
 
 [tool.cibuildwheel.linux]
-archs=["auto64"]
+archs=["auto64","aarch64"]
 before-all = '''
 switch_eol_centos_repos()
 {
