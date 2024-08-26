@@ -8,5 +8,5 @@ edition = "2021"
 auditable = "0.1"
 
 [build-dependencies]
-auditable-build = "0.1"
+auditable-build = "0.2"
 
