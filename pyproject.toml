@@ -30,7 +30,7 @@ switch_eol_centos_repos
 if [ "${AUDITWHEEL_POLICY}" == "manylinux2014" ] && [ "${AUDITWHEEL_ARCH}" == "x86_64" ]
 then
 	mkdir -p /usr/local
-    curl https://dl.google.com/go/go1.22.7.linux-arm64.tar.gz | tar -C /usr/local -xzf -
+    curl https://dl.google.com/go/go1.22.7.linux-amd64.tar.gz | tar -C /usr/local -xzf -
 fi	
 if [ "${AUDITWHEEL_POLICY}" == "manylinux2014" ] && [ "${AUDITWHEEL_ARCH}" == "aarch64" ]
 then
