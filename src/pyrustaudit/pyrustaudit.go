@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	rustaudit "github.com/microsoft/go-rustaudit"
+	rustaudit "github.com/rust-secure-code/go-rustaudit"
 	"os"
 	"path/filepath"
 )
